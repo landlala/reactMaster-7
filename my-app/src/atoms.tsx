@@ -6,7 +6,7 @@ export interface ITodo {
 }
 
 interface IToDoState {
-  [key: string] : string[];
+  [key: string]: ITodo[];
 }
 
 export const toDoState = atom<IToDoState>({
